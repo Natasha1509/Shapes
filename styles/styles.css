@@ -1,0 +1,50 @@
+html {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.square {
+    background-color: deepskyblue;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    
+}
+
+.innersquare {
+    background-color: lightcyan;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+}
+
+.rectangle {
+    width: 200px;
+    height: 120px;
+    background-color: rgb(185, 185, 230);
+    margin: 20px;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: hotpink;
+    margin: 20px;
+    justify-self: center;
+}
+
+div {
+    border: 2px solid rgb(5, 90, 95);
+}
+
+.rectangle:hover {
+    background: lemonchiffon;
+    cursor: pointer;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+}
